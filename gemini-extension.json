@@ -1,0 +1,15 @@
+{
+  "name": "divblox-mcp",
+  "version": "0.1.0",
+  "description": "Divblox MCP: requirements, planning and delivery. Gemini write reliability is not certified.",
+  "mcpServers": {
+    "Divblox MCP": {
+      "httpUrl": "https://mcp.divblox.app/mcp",
+      "oauth": {
+        "enabled": true,
+        "clientId": "gemini-production",
+        "redirectUri": "http://localhost:8873/oauth/callback"
+      }
+    }
+  }
+}
