@@ -1,0 +1,25 @@
+{
+  "name": "divblox-mcp",
+  "version": "0.1.0",
+  "description": "Define requirements, plan tickets and tasks, and track delivery with Divblox.",
+  "author": {
+    "name": "Divblox"
+  },
+  "interface": {
+    "displayName": "Divblox MCP",
+    "shortDescription": "Plan and deliver work with Divblox.",
+    "longDescription": "Define requirements, plan tickets and tasks, and track delivery with Divblox.",
+    "developerName": "Divblox",
+    "category": "Productivity",
+    "capabilities": [
+      "read",
+      "write"
+    ],
+    "defaultPrompt": "Get started in my new project on Divblox.",
+    "websiteURL": "https://mcp.divblox.app",
+    "privacyPolicyURL": "https://mcp.divblox.app/privacy",
+    "termsOfServiceURL": "https://mcp.divblox.app/terms",
+    "logo": "./assets/divblox-logo.png"
+  },
+  "mcpServers": "./.mcp.json"
+}

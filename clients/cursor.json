@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "Divblox MCP": {
+      "url": "https://mcp.divblox.app/mcp",
+      "auth": {
+        "CLIENT_ID": "cursor-production",
+        "scopes": [
+          "projects:read",
+          "workflow:read",
+          "workflow:write",
+          "requirements:read",
+          "delivery:read",
+          "requirements:write",
+          "requirements:motivation:write",
+          "requirements:drafts:write",
+          "requirements:create",
+          "delivery:write",
+          "delivery:create",
+          "models:read",
+          "offline_access"
+        ]
+      }
+    }
+  }
+}

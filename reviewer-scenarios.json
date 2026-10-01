@@ -1,0 +1,51 @@
+{
+  "status": "agent-prompts-prepared-underlying-production-workflows-verified",
+  "displayName": "Divblox MCP",
+  "accountHandling": "Use a dedicated project-scoped reviewer account. Deliver credentials through the submission portal only. Never reuse the operator account.",
+  "positive": [
+    {
+      "prompt": "Get started in my new project on Divblox.",
+      "expected": "Ask which authorized project and what the user wants to build; present a concise staged plan."
+    },
+    {
+      "prompt": "Find the \u201cMCP production validation \u2014 workflows\u201d requirement and summarize it.",
+      "expected": "Resolve its title within the selected project; summarize retrieved content without inventing omitted data."
+    },
+    {
+      "prompt": "Create a demo requirement for an appointment booking app.",
+      "expected": "Use approved project creation permission; return the created title only after confirmed success."
+    },
+    {
+      "prompt": "Create and estimate tickets for this requirement, then plan them as tasks.",
+      "expected": "Review the plan, use linked tickets and planning dates/assignments, preserving ticket links."
+    },
+    {
+      "prompt": "Show work in progress and recently completed tickets, with their timeline.",
+      "expected": "Use configured tracking lists and recorded event/history data; disclose missing timestamps or incomplete results."
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "Create a ticket with read-only project consent.",
+      "expected": "Friendly permission denial; no upstream mutation."
+    },
+    {
+      "prompt": "Change a record belonging to a project I did not select.",
+      "expected": "Deny the action without disclosing foreign project contents."
+    },
+    {
+      "prompt": "Retry the same confirmed write, then change its content using the same request key.",
+      "expected": "Return the cached result for an identical request; reject conflicting content without dispatch."
+    }
+  ],
+  "knownLimits": [
+    "Separate authorization may be required for creation and workflow edits.",
+    "A client may require catalog refresh after tool changes.",
+    "Never treat an unknown write outcome as success.",
+    "Use only dedicated reviewer fixtures for destructive tests.",
+    "A list with multiple tracking milestones can produce an ambiguous aggregate progress state and no completion percentage; report the individual recorded milestones."
+  ],
+  "reviewProject": "My first Divblox Project",
+  "existingRequirement": "MCP production validation \u2014 workflows",
+  "evidenceScope": "Production SDK checks verified the underlying isolated requirement, ticket, checklist, planning, movement and history workflows. These exact model-generated prompts have not been rerun under the reviewer account."
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "divblox-mcp": {
+      "type": "http",
+      "url": "https://mcp.divblox.app/mcp",
+      "oauth": {
+        "clientId": "claude-code-production",
+        "callbackPort": 8841
+      }
+    }
+  }
+}

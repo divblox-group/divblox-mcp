@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.divblox-group/divblox-mcp",
+  "title": "Divblox MCP",
+  "description": "Define requirements, plan tickets and tasks, and track delivery with your Divblox projects.",
+  "version": "0.1.0",
+  "websiteUrl": "https://mcp.divblox.app",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.divblox.app/mcp"
+    }
+  ]
+}

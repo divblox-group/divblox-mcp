@@ -1,0 +1,111 @@
+{
+  "status": "registered-production-launch-gated",
+  "clients": [
+    {
+      "client_id": "cursor-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "http://localhost:8787/callback"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    },
+    {
+      "client_id": "vscode-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "http://127.0.0.1:33418/",
+        "https://vscode.dev/redirect"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    },
+    {
+      "client_id": "gemini-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "http://localhost:8873/oauth/callback"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    },
+    {
+      "client_id": "claude-code-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "http://localhost:8841/callback"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    },
+    {
+      "client_id": "claude-desktop-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "https://claude.ai/api/mcp/auth_callback"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    },
+    {
+      "client_id": "codex-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "http://127.0.0.1:8842/callback"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    },
+    {
+      "client_id": "chatgpt-production",
+      "client_name": "Divblox MCP",
+      "redirect_uris": [
+        "https://chatgpt.com/connector_platform_oauth_redirect"
+      ],
+      "response_types": [
+        "code"
+      ],
+      "grant_types": [
+        "authorization_code",
+        "refresh_token"
+      ],
+      "token_endpoint_auth_method": "none"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "divblox-mcp": {
+      "type": "http",
+      "url": "https://mcp.divblox.app/mcp",
+      "oauth": {
+        "clientId": "codex-production",
+        "callbackUrl": "http://127.0.0.1:8842/callback",
+        "callbackPort": 8842
+      }
+    }
+  }
+}

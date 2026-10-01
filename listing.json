@@ -1,0 +1,27 @@
+{
+  "title": "Divblox MCP",
+  "publisher": "Divblox",
+  "version": "0.1.0",
+  "status": "prepared-not-published",
+  "shortDescription": "Turn ideas into delivered work with your AI assistant.",
+  "description": "Connect your AI assistant to Divblox to shape requirements, create and estimate tickets, plan work, and track delivery\u2014all in the projects you choose. Choose permissions separately for each project; Divblox access rules still apply.",
+  "category": "Productivity",
+  "endpoint": "https://mcp.divblox.app/mcp",
+  "website": "https://mcp.divblox.app",
+  "support": "https://mcp.divblox.app/support",
+  "privacy": "https://mcp.divblox.app/privacy",
+  "terms": "https://mcp.divblox.app/terms",
+  "reviewerCredentials": "Provided privately to reviewers; never included in this package.",
+  "limitations": [
+    "Gemini writes are not certified.",
+    "Windows, Linux desktop and mobile clients are not certified.",
+    "History contains recorded events only; incomplete search results must not be treated as complete."
+  ],
+  "publicationGates": [
+    "Owner approval of final public branding and messaging",
+    "Verified public browser/client access and OAuth onboarding",
+    "Manual installation package published first",
+    "Publisher verification and reviewer access before directory submissions",
+    "Individual marketplace review recorded separately"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "Divblox MCP": {
+      "type": "http",
+      "url": "https://mcp.divblox.app/mcp",
+      "oauth": {
+        "clientId": "vscode-production"
+      }
+    }
+  }
+}

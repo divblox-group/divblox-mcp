@@ -1,0 +1,7 @@
+[mcp_servers.divblox-mcp]
+url = "https://mcp.divblox.app/mcp"
+
+[mcp_servers.divblox-mcp.oauth]
+client_id = "codex-production"
+callback_url = "http://127.0.0.1:8842/callback"
+callback_port = 8842

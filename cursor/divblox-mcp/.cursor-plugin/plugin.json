@@ -1,0 +1,16 @@
+{
+  "name": "divblox-mcp",
+  "displayName": "Divblox MCP",
+  "version": "0.1.0",
+  "description": "Define requirements, plan tickets and tasks, and track delivery with Divblox.",
+  "author": {
+    "name": "Divblox"
+  },
+  "license": "MIT",
+  "keywords": [
+    "divblox",
+    "mcp",
+    "project-management"
+  ],
+  "mcpServers": "./.mcp.json"
+}
