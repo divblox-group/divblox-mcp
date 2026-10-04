@@ -1,0 +1,12 @@
+{
+  "name": "divblox-mcp",
+  "owner": {
+    "name": "Divblox"
+  },
+  "plugins": [
+    {
+      "name": "divblox-mcp",
+      "source": "cursor/divblox-mcp"
+    }
+  ]
+}
