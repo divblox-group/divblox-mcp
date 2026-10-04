@@ -12,5 +12,6 @@
     "mcp",
     "project-management"
   ],
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "logo": "assets/divblox-icon.png"
 }
